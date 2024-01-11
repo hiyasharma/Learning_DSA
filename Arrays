@@ -1,0 +1,30 @@
+Following are the Array Problems:
+1) Program to find the minimum (or maximum) element of an array:
+There are few methods:
+i) Using sort function {sort(a, a + n);} ==> 
+Time complexity : O(n log(n))
+Auxiliary Space : O(1)
+ii) function findMinAndMax(arr, n):
+    // Step 2: Initialization
+    minVal = arr[0]
+    maxVal = arr[0]
+
+    // Step 3: Iterate Through the Array
+    for i from 1 to n-1:
+        // Update minVal if the current element is smaller
+        if arr[i] < minVal:
+            minVal = arr[i]
+
+        // Update maxVal if the current element is larger
+        if arr[i] > maxVal:
+            maxVal = arr[i]
+
+    // Step 4: Output
+    return minVal, maxVal
+Time Complexity: O(n)
+Auxiliary Space: O(1)
+
+iii) Using Library functions: 
+We can use min_element() and max_element() to find minimum and maximum of array. 
+Time Complexity: O(n)
+Auxiliary Space: O(1)
