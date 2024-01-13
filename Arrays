@@ -56,3 +56,12 @@ Auxiliary Space: O(1)
 Time Complexity : o(n^2)
 Auxiliary space: o(1)
 
+4. Find a Fixed Point (Value equal to index) in a given array
+(Linear Search) 
+Linearly search for an index i such that arr[i] == i.
+
+Time Complexity: O(n) 
+Auxiliary Space: O(1)
+
+
+
