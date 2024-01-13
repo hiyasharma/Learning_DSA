@@ -43,3 +43,16 @@ Auxiliary Space: O(1)
 
 3) Most frequent element in an array
 
+1. Initialize variables: max_count = 0, element_having_max_freq
+2. For each element 'ele' in the array:
+   a. Set count = 0
+   b. For each element 'arr[i]' in the array:
+      - If 'ele' is equal to 'arr[i]', increment count
+   c. If count is greater than max_count:
+      - Update max_count to be equal to count
+      - Update element_having_max_freq to be equal to 'ele'
+3. Return element_having_max_freq as the most frequent element
+
+Time Complexity : o(n^2)
+Auxiliary space: o(1)
+
