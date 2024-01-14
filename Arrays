@@ -101,5 +101,11 @@ Therefore, 4 is the missing number in the sequence.
 Time Complexity: O(N)
 Auxiliary Space: O(1)
 
+9. Find the Number Occurring Odd Number of Times
+
+Using Nested Loop
+Time Complexity: O(n^2)
+Auxiliary Space: O(1)
+
 
 
