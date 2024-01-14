@@ -112,5 +112,9 @@ Auxiliary Space: O(1)
 Time Complexity: O(N2)
 Auxiliary Space: O(1)
 
+11. Find lost element from a duplicated array
+Time Complexity: O(M * N)
+Auxiliary Space: O(1)
+
 
 
