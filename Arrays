@@ -81,6 +81,12 @@ Return the common list containing the common elements of the two arrays.
 
 Time Complexity: O(n1+n2+n3)
 
+7. Check for Majority Element in a sorted array
+
+Using Moore Voting Algorithm
+Time Complexity: O(n)
+Auxiliary Space: O(1)
+
 
 
 
