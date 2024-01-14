@@ -107,5 +107,10 @@ Using Nested Loop
 Time Complexity: O(n^2)
 Auxiliary Space: O(1)
 
+10. Find the first repeating element in an array of integers
+
+Time Complexity: O(N2)
+Auxiliary Space: O(1)
+
 
 
