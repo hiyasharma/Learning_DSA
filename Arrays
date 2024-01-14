@@ -68,4 +68,19 @@ Auxiliary Space: O(1)
 Time complexity of this solution is O(n2)
 Auxiliary Space: O(1)
 
+6. Find common elements in three sorted arrays
+
+Initialize both pointers i and j to 0, and an empty list common.
+While both pointers i and j are within the bounds of the two arrays:
+If arr1[i] is less than arr2[j], increment i by 1.
+If arr2[j] is less than arr1[i], increment j by 1.
+If arr1[i] is equal to arr2[j]:
+Add arr1[i] to the common list.
+Increment both i and j by 1.
+Return the common list containing the common elements of the two arrays.
+
+Time Complexity: O(n1+n2+n3)
+
+
+
 
