@@ -63,5 +63,9 @@ Linearly search for an index i such that arr[i] == i.
 Time Complexity: O(n) 
 Auxiliary Space: O(1)
 
+5. Find the element that appears once in an array where every other element appears twice
+
+Time complexity of this solution is O(n2)
+Auxiliary Space: O(1)
 
 
